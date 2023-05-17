@@ -1,16 +1,11 @@
-import { Button, DatePicker, Space, version } from "antd";
+import {DatePicker} from "antd";
 import 'antd/dist/reset.css';
-import "./index.css";
 
 const App = () => {
-  return (
-    <div className="App">
-      <h1>antd version: {version}</h1>
-      <Space>
-        <DatePicker />
-        <Button type="primary">Primary Button</Button>
-      </Space>
-    </div>
-  );
+    return (
+        <DatePicker/>
+    );
 };
+
+
 export default App
